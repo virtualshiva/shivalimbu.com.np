@@ -11,7 +11,18 @@
 //     document.querySelector(".preloader").style.display = "none";
 //   }, 1000);
 // });
-
+window.addEventListener("load", function () {
+    // Select the preloader element
+    var preloader = document.querySelector(".preloader");
+  
+    // Add a class to fade out the preloader
+    preloader.classList.add("opacity-0");
+  
+    // Hide the preloader after a delay
+    setTimeout(function () {
+      preloader.style.display = "none";
+    }, 1000); // Change the delay as needed
+  });
 // iTyped
 
 window.ityped.init(document.querySelector(".iTyped"), {
