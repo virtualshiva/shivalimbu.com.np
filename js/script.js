@@ -29,6 +29,7 @@ window.ityped.init(document.querySelector(".iTyped"), {
   strings: [
     "Web Developer",
     "Graphic Designer",
+    "UI/UX Designer",
   ],
   loop: true,
   typeSpeed: 100,
