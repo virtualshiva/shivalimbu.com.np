@@ -1,72 +1,249 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
-    <title>it's Shibu </title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/music-symbol.webp" type="image/x-icon">
-
-    <!-- Required Social Preview MetaTags -->
-
-    <!-- Primary Meta Tags -->
-    <meta name="title" content="Shibu Subba | Shibu Subba" />
-    <meta name="description"
-        content="I'm Shibu Subba, a Web Developer and UI/UX Designer. I love to provide awesome services to my lovely clients. Hire me now!" />
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://shivalimbu.com.np" />
-    <meta property="og:title" content="Shibu Subba | Shibu Subba" />
-    <meta property="og:description"
-        content="I'm Shibu Subba, a Web Developer and UI/UX Designer. I love to provide awesome services to my lovely clients. Hire me now!" />
-    <meta property="og:image" content="images/Shibu.webp" />
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="images/Shibu.webp" />
-    <meta property="twitter:url" content="https://alnahian2003.github.io/me" />
-    <meta property="twitter:title" content="Shibu Subba | Shibu Subba" />
-    <meta property="twitter:description"
-        content="I'm Shibu Subba, a Web Developer and UI/UX Designer. I love to provide awesome services to my lovely clients. Hire me now!" />
-    <meta property="twitter:image" content="images/Shibu.webp" />
-
-    <!-- End of Required Social Preview MetaTags -->
-
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- bootstrap cdn link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/blog.css">
 
+    <title>blog title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
+        img {
+            height: 100%;
+            width: 100%;
+        }
 
-    <!-- Main Theme Color -->
-    <link rel="stylesheet" class="alternate-style" title="blue" href="css/theme.css" type="text/css" />
-    <link rel="stylesheet" href="css/styleSwitcher.css" type="text/css" />
-
+        p {
+            line-height: 30px;
+            text-align: left;
+        }
+    </style>
 </head>
 
 <body>
+    <!-- Main Container -->
+    <div class="main-container">
+        <div class="main-content">
 
-    <section class="blog-post">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6 d-flex align-items-center justify-content-center">
-                    <img src="images/padhnajaau.webp" alt="Blog illustration" class="img-fluid">
+            <header>
+                <div class="header-container">
+                    <div class="logo">
+                        <i class="fas fa-pen-fancy"></i>
+                        Shibu's Blog
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="https://shivalimbu.com.np/#home">Home</a></li>
+                            <li><a href="https://shivalimbu.com.np/#services">Services</a></li>
+                            <li><a href="https://shivalimbu.com.np/#about">About</a></li>
+                            <li><a href="https://shivalimbu.com.np/#contact">Contact</a></li>
+                        </ul>
+                    </nav>
                 </div>
-                <div class="col-md-6 d-flex flex-column align-items-center justify-content-center p-5">
-                    <h1>Welcome to My Blog</h1>
-                    <p>
-                        Discover insights, stories, and updates on technology, design, business, and productivity.
-                        Join me on this journey of exploration and learning!
-                    </p>
-                </div>
+            </header>
+
+
+            <div class="banner">
+                <img src="/images/padhnajaau.webp" alt="">
             </div>
-        </div>
-    </section>
+            <div class="col-md-8 blog-heading p-5 m-auto">
+                <h2>हाम्रो पालामा दसैँ</h2>
+                <h5>लेखक : शिवु सुब्बा</h5><br>
+                <p>
+                    जब गोधेलु साँझमा पश्चिममा घाम अस्ताउदा क्षितिजमा राता प्रकाशका किरणहरू सर्लम्म बेसी सम्म झर्थे ।
+                    आकाशमा
+                    अनकन्टार गुँड फर्किरहेका पञ्चिहरू देखिन्थ्यो, तब यस्तो लाग्थ्यो आहा ! दशैँ आयो ।
+                    बेसी खेतमा काटेर सुकाइएको धानका न्यानमा र बारीमा झुलेको कोदोको बालाहरुमा सुस्ससुस्त बतास आएर लरबराउन
+                    थाल्छ
+                    तब यस्तो लाग्छकी दसै आइसक्यो ।
+                    <br><br>
+                    बारिका डिलमा फूल्न लागेको सयपत्री र रेडियोमा लगतार गुन्जिने दशैँको शुभकामनाले गाउँघर दशैमय हुन्छ ।
+                    पूर्वि पहाडका मध्यम जिल्लाहरूमा कुनै चाँडबाड होस् या भोज मेला, क्यालेन्डरमा उल्लेखित तिथीमितिले
+                    भन्दा परिचित
+                    मौसमले अनुभुत गराउछ । चैत बैशाखमा बिउँ छर्न चराले सन्देश दिन्छ। बैसाख जेठमा बाँजो जोत्न आकाशे पानीले
+                    सन्देश
+                    फुक्छ। मंसिर पुषमा बालीनाली उठाउन न्यानो सुरिलो मौसमले सल्लाह दिन्छ। यहाँका बसिन्दा बिहानी कुखुराको
+                    भाले
+                    सँगै ब्युजन्छन् अनी साँझ पशुपन्छीसँगै निदाउछन् । साँच्चैनै यहाँका बासिन्दाहरू प्रकृतिसँग नजिक भएर
+                    बाँचिरहेका
+                    छन् ।
+                    <br><br>
+                    म पनि यहीँ पूर्वी पहाडी जिल्लामा हुर्केको एक युवक हुँ । बालक छदा मेरो बाल्यकाल पनि यसरीनै बितेको
+                    थियो ।
+                    यहाँका रहन सहन आफ्नो मौलिकता साँच्चैनै प्रीय लाग्छ ।<br>
+                    हाम्रो पालामा दशैँ आउन अगावै दशैँको सुनौलो रङ्गले गाउँघरमा नयाँ बाहार ल्याउछ । हामीलाई त झन
+                    भनिन्थ्यो कि
+                    छिमेकी जिल्लामा दशैँ आइसक्यो अब हाम्रो गाउँघरसम्म आइपुग्न दुइचारदिन मात्र बाँकी छ ।
+                    भन्थे - “काठमाडौँ तिर त दशैँ आइसक्यो अब हाम्रो गाउँमा पनि आइपुगीहाल्छ ।” यसले गर्दा हामी अझ बेसि
+                    हौसिन्थ्यौ
+                    । हाम्रो तिर दसैँ आउनभन्दा पहिला दसैँको सुनौलो बाहार आउछ ।
+                    पश्चिमी क्षितिजमा डुब्न लागेको सुरज सदा भन्दा फिक्का र सुमधुर लाग्छ जसको किरण राता राता हुन्छन् ।
+                    मानौ
+                    सुर्यदेवनै रातो रक्तिले रङ्गीएर आफ्नो प्रकास धर्तिमा छोडिरहेका छन् । अझ सानोमा त हामीलाई दसा र दशैँ
+                    सँगै आउछ
+                    भनिन्थ्यो । दशैँले धेरै प्राणीको रगत चुसेर आफै रातो भएको पनि भनिन्थ्यो । त्यसैले पनि दशैँको छेकमा
+                    रुख नचड्नु
+                    भिरपखेरामा नहिड्नु लामो दुरिको यात्रा नगर्नु भनिन्थ्यो ।
+                    <br><br>
+                    दशैँ भन्ने बित्तिकै हामी दुइचारओटा कुरामा धेरैनै हर्सीत हुने गर्दथ्यौ । एक, नयाँ कपडा लाउन पाइने
+                    भइयो ।
+                    दोस्रो, पीङ खेल्न पाइने भैइयो । अनि मासु भात खाएर नयाँ कटकटे पाँच दस र बिसको नोट बोकेर ठ्याङठ्याङ
+                    पेस्तोल
+                    पड्काउदै हिड्नुको आनन्द छुट्टैनै हुन्थ्यो । <br>
+                    धेरै जसोले दशैमा नयाँ कपडा पाउथे । हामी पनि पकेट पेन नक्कली सुन र चाँदी झुन्डिएको पाइन्ट भनेपछी
+                    हुरुक्कै
+                    हुन्थ्यौ । कसैकसैले भने दसैँमा स्कुलको ड्रेस पाउथे । बर्षभरी खेतिकिसानी र मजदुरी गरेर जमाको दुइचार
+                    पैसाले
+                    हाम्रो बाउआमालाई दसैँ काट्न धाउँ धाउँ पर्थ्यो । हामीलाई त के थियो र कसैको कपडा राम्रो देख्यो भने
+                    फलानोको
+                    जस्तो चाहियो भनेर घरमा जिद्दि गरेर किन्न लागाइन्थ्यो । <br>
+                    दशैँमा मान्छेले मात्र होइन बाटो घाटो घर पखेरा सबैले काँचुली फेर्थे । घरका डिजाइन कलर र पोतिएको
+                    माटोको
+                    सुगन्धले बाटोमा हिड्ने बटुवा पनि मोहित हुन्थे भन्दा फरक नपर्ला । हाम्रो तिर दशै आउदैनथ्यो । हामी
+                    दशैँलाई
+                    बोलाउथ्यौँ । दशैँ फोहोरी अलछ्छिन् सफा सुगर नभएको घरमा आउदैन भन्ने हाम्रो मौलिक मान्यता थियो ।
+                    त्यसैले पनि
+                    होला गाउँघरमा समुहनै भएर दशैँमा गाउँको मूल बाटो र पदयात्रीले पैदल हिड्ने बाटो हामी सबै मिलेर सफा
+                    गर्थ्यौ ।
+                    प्रत्येक घरबाट कम्तिमा एक सदस्या अनिबार्य सामेल हुनु पर्दथ्यो । कुटो, कोदालो, बेल्चा, दाउ खुकुरी,
+                    झम्पल आदि
+                    बोकेर हामी बाटोघाटो सफा गर्न निस्कन्थ्यौ । दुर दराजका पदयात्री सिकसिको लाग्दो बाटोको झाँडी फाडेर सफा
+                    र
+                    चिटिक्क पारेको बाटो देखेर औधीँ खुसि हुन्थे ।<br>
+                    बाटोमात्र सफा गरेर कहाँ पुग्थ्योर ? आफ्नो घर पनि त सफा गर्नु पर्थ्यो । बिहान बेलुका घरकै सदस्य मिलेर
+                    आँगन
+                    खारेर फरकिलो बनाउथ्यौँ । दशैँमा भ्वानी* खेल्ने र तिहारमा देउसिभैलो खेल्नेहरु चिप्लेर नलडुन भनेर
+                    खाल्डो गहिरो
+                    भागलाई माटोले पुरेर समतल बनाउथ्यौँ । छेउकुनामा उम्रेका झार उखेलेर गाइको गोबरले चिटिक्क पारेर
+                    लिप्थ्यौ ।
+                    त्यहीँ चिटिक्क लिपेको खलालाई देखेर देउसी भैलो भट्याउनेले सुर मिलाएर भन्थे - “खला लिप्नु लतपत
+                    देउसेलाई दिनु
+                    हतपत”<br>
+                    पूर्वी पहाडको घरको डिजाइन लगभग सबैको एकै खालको हुने गर्छ । माथी त्रिभुज आकारको चुच्चो सिरान तला
+                    बिचमा बरण्डा
+                    निकालिएको र भुइको अर्को तला गरेर जम्मा तीन तलाको घर प्राय जसोको हुने गर्छ । गाउँघरमा अलि जमिनदार र
+                    सम्पतिवालको घरमा झिँगुटी* को छाना हुन्छ । अलि मध्यम बर्गियको भने जस्ताको र न्यून बर्गियको घरमा खरको
+                    छानो
+                    हुन्छ । पहिला पहिला जसको घरमा टिभीको एन्टिना हुन्थ्यो त्यो घरलाई हुनेखानेको घर भनिन्थ्यो । पछिल्लो
+                    समय भने
+                    इन्टरनेट जोकोहिको पहुँचमा आइसके पछी भने टिभीको एन्टनाहरु हराएर गए । घर झिँगुटीको होस या जस्ता खरको
+                    लिपिने
+                    पाटो भने सबैको एकैखाल्को हुन्थ्यो । बाहिरी सबैतिर चुन पोतिन्थ्यो । पेटि र पुछ्छर भागमा भने रातोमाटो
+                    पोतिन्थ्यो । भित्री भागमा भित्तामा कमेरो पोतिन्थ्यो भने भुइमा चिम्टे माटो र गाइको गोबरले पोतिन्थ्यो
+                    । भित्री
+                    भागमा पनि तलको भुइसँग जोडिएको ठाउँमा भने रातोमाटोलेनै पोतिन्थ्यो ।<br>
+                    रातो माटो लिन उराठे जानु पर्थ्यो । दशैँको छेकमा गाउँघरका सबैजसो जम्मा भएर एकबिहानै खाना खाजा पकाएर
+                    उराठे
+                    लाग्थ्यौँ । चेलिबेटि दाजूभाइ दिदी बहिनी सबै जना भएर चार देखि पाँच घन्टाको बाटो हिडेर बेसी उराठे
+                    ओर्लन्थ्यौ ।
+                    उराठेतिर माटोका बिभिन्न प्रकारहरु देखिन्थ्यो । प्रायजसो उराठेतिर माटोको भाँडा बनाउने कुमालेहरु निवास
+                    गर्दथे
+                    । हामी माटोको भाँडाहरु बनाएको देखेर चकित पर्थ्यौ ।<br>
+                    उराठे पुगुसकेपछी हामी जस्तै अरु गाउँ ठाउँबाट माटो लिन आएका मान्छेरु गँड रिजर्ब गरेर बसेका हुन्थे ।
+                    त्यहाँका
+                    बासिन्दाहरुले आफ्नो जग्गामा माटो खन्न दिदैनथे । मान्छेहरुले जता पाए त्यतै खाडल बनाएर राखिदिने भएको
+                    हुनाले
+                    पैरो जाने डरले स्थानियले बाटो नजिक कहीँ गँड बनाउन दिदैनथे । रोड पुगीसको भएको हुनाले ट्र्याक्टर बाट
+                    मान्छेले
+                    माटो लिएर बेचबिखन पनि गर्दथे । रातो माटोको लागी उराठे नै जान जरुत त थिएन तर त्यहाँको माटोको सुगन्ध र
+                    रङ्गको
+                    चमक भिन्दै हुन्थ्यो ।<br>
+                    माटो खन्न फेरी त्यती सजिलो पनि हुदैनथ्यो । बरु ढुङ्गा फुटाउन सजिलो होला तर ढुङ्गा सँगै गासिएको
+                    चिम्टे रातो
+                    माटोमा झम्पलने खप्पै गाडिन्थ्यो । माटो खन्दा खन्दा माटोको खानी गुफा जस्तो बनेको हुन्थ्यो । भित्र बाट
+                    दुइतिन
+                    जनाले खन्न पर्ने बाहिर बाट अरुले बोरामा भारि लाउनु पर्ने । कैले काहीँ त हुस्सु र झरि पनि सँगै
+                    परिरहेको हुन्छ
+                    । त्यस्तो बेला खानीमा पसेर खोतल्न खतरा हुन जान्थ्यो । रेडियो समचारमा बर्सेनी माटोले पुरेर मान्छे
+                    मरेको
+                    खबरहरु पनि आइरहन्थ‍े । सबैजनाले बोक्न सक्ने भारि पुराएर हामी माथी चौतारमा आएर सबैको खाजा खाना बाडेर
+                    खान्थ्यौ
+                    ।<br>
+                    रातोमाटोले मात्र घर पुरै पोतिन्न थ्यो । भित्री पट्टिको भित्ता पोत्न हामीलाई कमेरो माटोको आवस्यकता
+                    पर्दथ्यो ।
+                    कमेरो माटो माटोहरुमध्ये सबैभन्दा गह्रौँ लाग्ने माटोमा पर्छ । कमेरो माटो हाम्रो लागी अन्य माटोहरु
+                    भन्दा
+                    दुर्लव माटोमा गनिन्थ्यो । किनभने यो माटो खोलातिर मात्र पाइन्थ्यो । खोलाबाट माटो ल्याउनु अत्याधिक
+                    जोखिम हुन
+                    जान्थ्यो । धेरैजसो मान्छेहरुले कमेरो माटोको कारण पनि ज्यान गुमाउनु परेको थियो । कमेरो माटो लिन भने
+                    हामी
+                    पिँगुवा खोल र ढाँडे खोला सम्म जान्थ्यौ । राम्रो माटोको लागी माटोलाई राम्रोसँग धोइपखाली पनि गर्नुपर्छ
+                    । कमेरो
+                    माटो भने डोकोमा बोकेर ल्याउनु पर्थ्यो । यसको बनावट झन्डै ढुंगाको जस्तो हुन्थ्यो ।
+                    रातो माटो र कमेरो ल्याइसकेपछी भने लगभग टाडाको काम सकिन्छ । चिम्टे माटो भने घरनजिकै बारितिर बाट
+                    ल्याएर पनि
+                    काम चल्छ ।<br>
+                    म लिम्बू समुदायबाट भएको हुनाले हामी दशैँमा टिका लाउदैनौ । मैले जन्मेदेखी अहिलेसम्म हाम्रो समुदायमा
+                    सेतो टिका
+                    पनि लाएको देखेको छैन । बरु मेरो माममघरतिर भने दशैँमा सेतो टिका लागाएर दक्षिणा थाप्ने गरेको देखेको
+                    थिए ।
+                    हाम्रो लागी त दशैँ केबल मासु काटेर खाने रमाइलो नाँचगान गर्ने मात्र हुन्थ्यो ।
+                    <br><br>
+                    हाम्रो दशैँ
+                    पहिला पहिला दशैँमा हाम्रोतिर कामीहरु घरमा धन लिएर आउथे औजार तिखार्न । लिम्बूहरुले दशैँ तिहार
+                    चाँडबाडमा मासु
+                    काट्छन भनेर ।
 
+                    दर्जिहरुले टेप लिएर सुब्बाहरुको नापो लिएर जान्थे ।
 
-    <!-- Main js -->
-    <script src="js/script.js"></script>
+                    घटस्थापना 7 दिन ।
+                    खस्टी(फूलपातीको अघिल्लो दिन पिङ लाउने झुण्डाउने), सप्तमी(फूलपाती), अस्टमी(भेजो)मासु काट्ने दिन,
+                    नवमी(माण)सुब्बाहरुले काट्ने माण फर्सि काट्ने, दशमी(टीका),
+
+                </p>
+            </div>
+            <!-- Footer -->
+            <footer>
+                <div class="footer-container">
+                    <div class="footer-section">
+                        <h3>Shibu's Blog</h3>
+                        <p>A platform for sharing insights on technology, design, business, and productivity.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-section">
+                        <h3>Quick Links</h3>
+                        <ul class="footer-links">
+                            <li><a href="https://shivalimbu.com.np/#home">Home</a></li>
+                            <li><a href="https://shivalimbu.com.np/#about">About</a></li>
+                            <li><a href="https://shivalimbu.com.np/#categories">Service</a></li>
+                            <li><a href="https://shivalimbu.com.np/#contact">Contact</a></li>
+                            <li><a href="https://shivalimbu.com.np/#privacy">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h3>Contact Me</h3>
+                        <ul class="footer-links">
+                            <li><i class="fas fa-map-marker-alt"></i> Chabahil-7, Kathmandu, Nepal</li>
+                            <li><i class="fas fa-phone"></i> + 977 9818647289</li>
+                            <li><i class="fas fa-envelope"></i> shibusubba123@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="copyright">
+                    <p class="text-center">&copy; 2025 Shibu's Blog. All rights reserved.</p>
+                </div>
+            </footer>
 </body>
 
 </html>
