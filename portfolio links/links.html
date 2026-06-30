@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio Resources</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #f5f7fb;
+            color: #222;
+            display: flex;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #666;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
+            transition: .3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h2 {
+            margin-bottom: 15px;
+            color: #1f3c88;
+        }
+
+        .link-item {
+            background: #f2f4f7;
+            padding: 12px;
+            border-radius: 10px;
+            margin-bottom: 12px;
+        }
+
+        .link-item h4 {
+            margin-bottom: 6px;
+            font-size: 15px;
+        }
+
+        .link-item p {
+            color: #666;
+            font-size: 13px;
+            margin-bottom: 10px;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        button,
+        a {
+            flex: 1;
+            text-align: center;
+            border: none;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .open {
+            background: #1f3c88;
+            color: #fff;
+        }
+
+        .copy {
+            background: #ececec;
+        }
+
+        .disclaimer {
+            margin-top: 35px;
+            background: #fff8e5;
+            border-left: 5px solid #ffb400;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .disclaimer h3 {
+            margin-bottom: 10px;
+        }
+
+        .disclaimer p {
+            color: #555;
+            line-height: 1.7;
+        }
+
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            color: #777;
+            font-size: 14px;
+        }
+
+        @media(max-width:600px) {
+
+            header h1 {
+                font-size: 1.7rem;
+            }
+
+            .card {
+                padding: 20px;
+            }
+
+            .buttons {
+                flex-direction: column;
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Portfolio Resource Links</h1>
+            <p>Branding Projects & Figma Design Files</p>
+        </header>
+
+        <div class="grid">
+
+            <div class="card">
+
+                <h2>🎨 Branding Projects</h2>
+
+                <div class="link-item">
+                    <h4>Brand Identity Expedition Company</h4>
+                    <p>Complete branding presentation.</p>
+
+                    <div class="buttons">
+                        <a href="https://drive.google.com/file/d/1K6PG4Yxu4YVcnlCfywCj2bWj0kDSQuUT/view?usp=drive_link" target="_blank" class="open">Open</a>
+                        <button class="copy" data-link="https://drive.google.com/file/d/1K6PG4Yxu4YVcnlCfywCj2bWj0kDSQuUT/view?usp=drive_link">Copy</button>
+                    </div>
+
+                </div>
+
+                <div class="link-item">
+                    <h4>Full Branding Salaka Krishi</h4>
+                    <p>Logo concepts and brand guidelines.</p>
+
+                    <div class="buttons">
+                        <a href="https://drive.google.com/file/d/1MtjTjtABecB-79omF0ei7hd8SBO6GQaU/view?usp=sharing" target="_blank" class="open">Open</a>
+                        <button class="copy" data-link="https://drive.google.com/file/d/1MtjTjtABecB-79omF0ei7hd8SBO6GQaU/view?usp=sharing">Copy</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <h2>🖥️ Figma Designs</h2>
+
+                <div class="link-item">
+                    <h4>Complete UI/UX Design Ecommerce</h4>
+                    <p>Responsive website design.</p>
+
+                    <div class="buttons">
+                        <a href="https://www.figma.com/design/xBT0QwOgyzh4eSNs24allD/Samsara-Backup?node-id=0-1&t=4haPTBHbpND0on8I-1" target="_blank" class="open">Open</a>
+                        <button class="copy" data-link="https://www.figma.com/design/xBT0QwOgyzh4eSNs24allD/Samsara-Backup?node-id=0-1&t=4haPTBHbpND0on8I-1">Copy</button>
+                    </div>
+
+                </div>
+
+                <div class="link-item">
+                    <h4>Full Theater App</h4>
+                    <p>System and Visual Design for Theater Application</p>
+
+                    <div class="buttons">
+                        <a href="https://www.figma.com/design/SPaxikB0w04BCo3Vpw4Z8f/onecinemas-clone?node-id=0-1&t=TPSBUz0u5ff8oDNz-1" target="_blank" class="open">Open</a>
+                        <button class="copy" data-link="https://www.figma.com/design/SPaxikB0w04BCo3Vpw4Z8f/onecinemas-clone?node-id=0-1&t=TPSBUz0u5ff8oDNz-1">Copy</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="disclaimer">
+
+            <h3>Portfolio Disclaimer</h3>
+
+            <p>
+                The files and links provided on this page are shared solely for the purpose of demonstrating my
+                professional portfolio and design capabilities.
+            </p>
+
+            <br>
+
+            <p>
+                All trademarks, brand assets, project materials, and intellectual property remain the exclusive property
+                of their respective owners and organizations with whom I have worked. These resources are not intended
+                for redistribution, commercial use, or reproduction without the permission of the respective rights
+                holders.
+            </p>
+
+        </div>
+
+        <footer>
+
+            © 2026 Shibu Subba • Portfolio Showcase
+
+        </footer>
+
+    </div>
+
+    <script>
+
+        document.querySelectorAll(".copy").forEach(button => {
+
+            button.addEventListener("click", () => {
+
+                navigator.clipboard.writeText(button.dataset.link);
+
+                button.innerText = "Copied!";
+
+                setTimeout(() => {
+                    button.innerText = "Copy";
+                }, 1500);
+
+            });
+
+        });
+
+    </script>
+
+</body>
+
+</html>
